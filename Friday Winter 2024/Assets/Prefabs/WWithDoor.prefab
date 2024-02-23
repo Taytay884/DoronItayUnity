@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 445209063129361453}
   - component: {fileID: 7935095173229043353}
   - component: {fileID: 3278394228695339561}
+  - component: {fileID: 3940672139888967342}
   m_Layer: 0
   m_Name: DoorAxis
   m_TagString: Untagged
@@ -33,7 +34,7 @@ Transform:
   m_Children:
   - {fileID: 37194113935522857}
   m_Father: {fileID: 3798424663188712502}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 120, z: 0}
 --- !u!95 &7935095173229043353
 Animator:
   serializedVersion: 5
@@ -44,7 +45,7 @@ Animator:
   m_GameObject: {fileID: 1056175304899954784}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 40cfad97fe5ba1148b2c79048b53c1b0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -76,6 +77,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 4.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3940672139888967342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056175304899954784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c961f290dd61b4631b68d491a2cad7a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4148867442876166492
 GameObject:
   m_ObjectHideFlags: 0
